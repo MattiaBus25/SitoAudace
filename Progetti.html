@@ -1,1 +1,51 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Progetti</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header>
+        <h1>Progetti attualmente in corso del reparto</h1>
+        <nav>
+            <a href="index.html">Home</a> | 
+            <a href="Progetti.html">Progetti</a> | 
+            <a href="Risorse.html">Risorse</a> | 
+            <a href="Inventario.html">Inventario</a> | 
+            <a href="Archivio.html">Archivio</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Progetti parte harware</h2>
+        <h3>La "scatola"</h3>
+        <p>Nel corso degli anni precedenti è stata sviluppata una prima versione di una "scatola" per l'acquisizione di dati in tempo reale da montare sulla barca così da poter migliorare progettazione e prestazioni. </p>
+        <p>Al momento questa presenta un Raspberry Pi 4  che si occupa, tramite un software python scritto internamente dal team, di prelevare e salvare in memoria dati da vari sensori come GPS, Imu a 9 assi, temperatura ed umidità.</p>
+        <h3>To Do per migliorarela "scatola" </h3>
+        <ul>
+            <li>Cambio della architettura di base</li>
+            <p>A seguito diricerche e riflessioni, si è deciso di cambiare architettura e di cominciare ad utilizzare microcontrollori, che risultano essere più piccoli e potenti, anche in vista del futuro, in cui si vuole implementare un controllo di volo per moth interamente elettronico. </p>
+            <li>Sviluppo di PCB ad hoc</li>
+            <p>Per migliorare ulteriaromente le prestazioni e per ridurre le dimensioni dell'harware, si è deciso di cominciare a creare una o più PCB disegnate dal reparto in maniera da miniaturizzare il tutto e da rendere il tutto più efficiente.</p>
+        </ul>
+        <h2>Progetti parte Software</h2>
+        <h3>Mothics</h3>
+        <h3>Scrittura di un nuovo Mothics in C per ESP32</h3>
+        <h3>Sviluppo di una vero e proprio sistema di volo elettronico</h3>
+
+        <div class="gallery">
+            <!-- Immagine 3: Locale -->
+            <img src="images/foto2.jpg" alt="Prototipo PCB" width="400">
+            <!-- Immagine 4: Web esterna -->
+            <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=500" alt="Strumentazione di misura" width="400">
+        </div>
+    </main>
+
+    <script>
+        alert("Sezione Progetti caricata.");
+    </script>
+
+</body>
+</html>
