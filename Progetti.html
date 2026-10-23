@@ -2,6 +2,7 @@
 <html lang="it">
 <head>
     <meta charset="UTF-8">
+    <img src ="images/logoAudace.png" alt="Logo Audace" class="logo-titolo">
     <title>Progetti</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -30,15 +31,28 @@
             <p>Per migliorare ulteriaromente le prestazioni e per ridurre le dimensioni dell'harware, si è deciso di cominciare a creare una o più PCB disegnate dal reparto in maniera da miniaturizzare il tutto e da rendere il tutto più efficiente.</p>
         </ul>
         <h2>Progetti parte Software</h2>
+        
         <h3>Mothics</h3>
-        <h3>Scrittura di un nuovo Mothics in C per ESP32</h3>
+        <p>Mothics è il nostro software scritto in python che si occupa di gestire i vari sensori e il loro salvataggio in memoria
+        per poterli poi analizzare. Al momento, visto il cambio di architettura, bisogna modificarlo in modo da togliere tutta la parte di 
+        codice che non verrà più utilizzata, mantenendo ed ottimizando quello che invece verrà usato.</p>
+        
+        <h3>Sviluppo di un codice C per ESP32</h3>
+        <p>A seguito del cambio di architettura, si vuole realizzare da zero un codice in grado di gestire l'output dei
+        vari sensori, capendo con quale protocollo di comunicazione, seriale (UART), i2c o altri,  </p>
+       
         <h3>Sviluppo di una vero e proprio sistema di volo elettronico</h3>
+        <p>Ultimo, ma non per importanza, tra i progetti è quello dello sviluppo di un sistema di volo elettronico.
+        È quindi necessario sviluppare un controllore di volo dotato di filtri per pulire i dati in entrara ed in grado di riuscire a cambiare
+        in real time l'angolo del flap per mantenere il volo stabile. Al momento l'architettura di questo controllore è ancora in fase di definizione,
+        ma si intende sicuramente utilizzare un filtro di Kalman e sensor fusion tra IMU e sensore ad ultrasuoni per la stima dell'alatezza di volo.    
+        </p>
 
         <div class="gallery">
          
-            <img src="images/scatolaup.jpeg" alt="Scatolaup" width="400">
-            <img src="images/scatolalina.jpeg" alt="Scatolalina" width="400">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Arduino-Uno-with-ADXL335-Accelerometer.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" alt="Breadboard" width="400">
+            <img src="images/scatolaup.jpeg" alt="Scatolaup" width="200">
+            <img src="images/scatolalina.jpeg" alt="Scatolalina" width="200">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Arduino-Uno-with-ADXL335-Accelerometer.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" alt="Breadboard" width="200">
         </div>
     </main>
 
