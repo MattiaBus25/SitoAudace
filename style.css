@@ -33,6 +33,13 @@ nav a:hover {
     text-decoration: underline;
 }
 
+.logo-titolo{
+    height: 45px;            
+    width: auto;             
+    vertical-align: middle;  
+    margin-right: 12px;
+}
+
 .gallery{
     margin-top: 20px;
 }
